@@ -1,0 +1,60 @@
+h1 {
+  font-size: 1.5em;
+  font-family: Times, Geneva, Arial, "Times New Roman", serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  padding-left: 1.0em;
+  border-bottom: 1px;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-color: rgb(206, 206, 206);
+  background: #dbcbcb;
+}
+
+p {
+  position: relative;
+  margin-left: 15px;
+  margin-right: 15px;
+ }
+
+body {
+  width: 800px; /* current width of the content */
+  max-width:1024px; /* max width of the content */
+  border-width:1px; 
+  margin-bottom:30px;
+  margin-top:30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Times, "Arial", "Times New Roman", serif;
+  border-color:rgb(170, 170, 170);     
+  border-style:solid;
+}
+
+.photo {
+  position: absolute; 
+  left: 5px;
+  top: 5px;
+  bottom: 5px;
+}
+
+.contacts {
+  position: relative; 
+  float: right; 
+  top: 196px;
+  bottom: 20px;
+}
+
+.layer1 {
+  position: relative; 
+  height: 232px; 
+  background: #f0f0f0; 
+ }
+
+ .layer2 {
+  position: absolute; 
+  bottom: 5px;
+  right: 15px;  
+}
